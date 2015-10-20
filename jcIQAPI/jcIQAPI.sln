@@ -9,6 +9,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{92FD7621
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jcIQAPI.Tests.WebAPI", "jcIQAPI.Tests.WebAPI\jcIQAPI.Tests.WebAPI.csproj", "{D75497FE-2741-426E-BE04-BD9019158CDA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jcIQAPI.Server.Library", "jcIQAPI.Server.Library\jcIQAPI.Server.Library.csproj", "{AEBEB950-FE49-41C9-A9DD-AF480F6BCC27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jcIQAPI.Universal.Library", "jcIQAPI.Universal.Library\jcIQAPI.Universal.Library.csproj", "{1A29C15B-C9EB-4A4A-81B7-0A91D3A31C2F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +27,14 @@ Global
 		{D75497FE-2741-426E-BE04-BD9019158CDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D75497FE-2741-426E-BE04-BD9019158CDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D75497FE-2741-426E-BE04-BD9019158CDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEBEB950-FE49-41C9-A9DD-AF480F6BCC27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEBEB950-FE49-41C9-A9DD-AF480F6BCC27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEBEB950-FE49-41C9-A9DD-AF480F6BCC27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEBEB950-FE49-41C9-A9DD-AF480F6BCC27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A29C15B-C9EB-4A4A-81B7-0A91D3A31C2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A29C15B-C9EB-4A4A-81B7-0A91D3A31C2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A29C15B-C9EB-4A4A-81B7-0A91D3A31C2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A29C15B-C9EB-4A4A-81B7-0A91D3A31C2F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

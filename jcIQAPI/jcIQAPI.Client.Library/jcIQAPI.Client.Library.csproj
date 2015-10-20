@@ -46,6 +46,12 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\jcIQAPI.Universal.Library\jcIQAPI.Universal.Library.csproj">
+      <Project>{1a29c15b-c9eb-4a4a-81b7-0a91d3a31c2f}</Project>
+      <Name>jcIQAPI.Universal.Library</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

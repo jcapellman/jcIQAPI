@@ -214,7 +214,16 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\jcIQAPI.Server.Library\jcIQAPI.Server.Library.csproj">
+      <Project>{aebeb950-fe49-41c9-a9dd-af480f6bcc27}</Project>
+      <Name>jcIQAPI.Server.Library</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\jcIQAPI.Universal.Library\jcIQAPI.Universal.Library.csproj">
+      <Project>{1a29c15b-c9eb-4a4a-81b7-0a91d3a31c2f}</Project>
+      <Name>jcIQAPI.Universal.Library</Name>
+    </ProjectReference>
+  </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
